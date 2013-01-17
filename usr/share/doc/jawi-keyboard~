@@ -1,0 +1,23 @@
+
+
+Install is successfull. You may need to restart system. To use Jawi Keyboard Layout, Open Menu > Keyboad Layout > + sign > choose Jawi.
+
+
+
+jawi-keyboard
+
+Copyright: Ihsan Jaafar <inashdeen@gmail.com>
+
+2012-24-06
+
+The home page of linuxstatus is at: 
+http://launchpad.net/jawi
+
+The entire code base may be distributed under the terms of the GNU General
+Public License (GPL), which appears immediately below.  Alternatively, all
+of the source code as any code derived from that code may instead be
+distributed under the GNU Lesser General Public License (LGPL), at the
+choice of the distributor. The complete text of the LGPL appears at the
+bottom of this file.
+
+See /usr/share/common-licenses/(GPL|LGPL)

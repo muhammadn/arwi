@@ -1,0 +1,46 @@
+#! /bin/bash
+CHOICE=$(zenity --list \
+--title="Jawi Keyboard Layout Manager" \
+--text="Please choose an option from below:" \
+--checklist \
+--column="" --column="Option" \
+FALSE "See Keyboard Layout" \
+FALSW "Enable/Disable Keyboard" \
+FALSE "Repair Jawi Keyboard" \
+FALSE "Remove Keyboard" \
+FALSE "See license" \
+FALSE "See version")
+
+if [[ "$CHOICE" =~ "See Keyboard Layout" ]]; then
+eog %U /usr/local/share/jawi-keyboard-gtk/jawi-keyboard-layout-diagram.png
+/usr/bin/jawi-keyboard
+fi
+
+if [[ "$CHOICE" =~ "Enable/Disable Keyboard" ]]; then
+gnome-control-center region
+/usr/bin/jawi-keyboard
+fi
+
+if [[ "$CHOICE" =~ "Repair Jawi Keyboard" ]]; then
+rootpw=`zenity --title="Root-Password"  --text='Please enter password to proceed with repair' --hide-text="" --entry`
+echo $rootpw | sudo -S cp -r /usr/local/share/jawi-keyboard-gtk/usr /
+zenity --info --title="Repair complete" --text="Repair completed. Now, please Log out and Log in for changes to take effect."
+fi
+
+if [[ "$CHOICE" =~ "Remove Keyboard" ]]; then
+rootpw=`zenity --title="Root-Password"  --text='Please confirm to remove jawi-keyboard by putting in your password' --hide-text="" --entry`
+echo $rootpw | sudo -S apt-get -y remove jawi-keyboard
+unset rootpw
+zenity --info --title="Removal complete" --text="Removal completed. Now please remove Jawi keyboard setting from the Keyboard Layout. The application will open as soon as this window close. Next, please Log out and Log in for changes to take effect."
+gnome-control-center region
+fi
+
+if [[ "$CHOICE" =~ "See license" ]]; then
+gedit /usr/share/doc/jawi-keyboard/copyright
+/usr/bin/jawi-keyboard
+fi
+
+if [[ "$CHOICE" =~ "See version" ]]; then
+zenity --info --title="Version" --text=" This is Jawi-Keyboard-gtk version 0.9.5"
+/usr/bin/jawi-keyboard
+fi
