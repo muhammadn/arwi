@@ -137,9 +137,11 @@ xkb_symbols "olpc" {
     include "group(olpc)"
 };
 
+
+partial default alphanumeric_keys
 xkb_symbols "qwerty"
 {
-        name[Group2] = "Jawi-qwerty";
+//        name[Group2] = "Jawi-qwerty";
 
 /Numbers
 
