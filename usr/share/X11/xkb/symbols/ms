@@ -8,9 +8,9 @@
 // Version: 0.2.0
 // based on a keyboard map from an 'xkb/symbols/ar' file
 // based on keyboard map by Jamil Ahmad (Bangladesh) and Martin Vidner (arabic)
-// Author: Muhammad Nuzaihan Bin Kamal Luddin < zaihan at unrealasia.net > - Jawi (QWERTY) support.
+// based on Mac OS X Jawi (qwerty) layout by Muhammad Nuzaihan Bin Kamal Luddin Jawi (QWERTY)
 // Jawi (QWERTY) added 18 Jan 2012.
-// based on Mac OS X Jawi (qwerty) layout. 
+
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
