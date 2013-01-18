@@ -1,6 +1,6 @@
 //
 // XKB symbol :: Jawi (QWERTY) Keyboard Layout
-// Project site: http://launchpad.net/jawi
+// Project site: http://github.com/Jawi-Keyboard/Jawi
 //
 // Author: Muhammad Nuzaihan Bin Kamal Luddin < zaihan at unrealasia.net >
 // Created: 18 Jan 2013
@@ -61,7 +61,7 @@ xkb_symbols "basic"
         key <AD04> { [      Arabic_ra,   Arabic_ghain         ] };
         key <AD05> { [     Arabic_teh, Arabic_tehmarbuta      ] };
         key <AD06> { [     Arabic_yeh, Arabic_alefmaksura     ] };
-        key <AD07> { [     Arabic_waw 		              ] };
+        key <AD07> { [     Arabic_waw, Arabic_tah             ] };
         key <AD08> { [     Arabic_yeh                         ] };
         key <AD09> { [     Arabic_ain                         ] };
         key <AD10> { [     Arabic_veh, Arabic_teh             ] };
