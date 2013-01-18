@@ -4,8 +4,8 @@
 // For more about the software, see http://code.google.com/p/keyboardlayouteditor
 //
 // This would be used as a reference for the main jawi keyboard.
-// Author -  Muhammad Nuzaihan Bin Kamal Luddin < zaihan at unrealasia.net >
-// This is based on the Mac OS X Jawi (QWERTY) keyboard layout. No Mac OS code was used in this process.
+// Author:  Muhammad Nuzaihan Bin Kamal Luddin < zaihan at unrealasia.net >
+// This is based on the Mac OS X Jawi (QWERTY) keyboard layout.
 
 xkb_symbols "qwerty"
 {
