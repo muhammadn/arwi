@@ -146,7 +146,7 @@ xkb_symbols "qwerty"
         name[Group1] = "Jawi (qwerty)";
 
 /Numbers
-
+   
 	key <AE01> {  [       0x1000661,          exclam, 1      ]       };
 	key <AE02> {  [       0x1000662,    Arabic_hamza, 2      ]       };
 	key <AE03> {  [       0x1000663,     	   UFE83, 3      ]       };
@@ -182,7 +182,7 @@ xkb_symbols "qwerty"
         key <AC08> { [    UFED9, UFED5                        ] };
         key <AC09> { [    UFEDD, UFEFB                        ] };
         key <AC10> { [      U06A9,    Arabic_semicolon        ] };
-        key <AC11> { [      NoSymbol,        quotedbl         ] };
+        key <AC11> { [      apostrophe,        quotedbl         ] };
 
         key <AD01> { [          U06A7,     Arabic_veh         ] };
         key <AD02> { [     Arabic_waw                         ] };
