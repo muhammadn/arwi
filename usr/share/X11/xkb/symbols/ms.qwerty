@@ -15,7 +15,7 @@ xkb_symbols "qwerty"
 	key <AB06> { [    Arabic_noon,          U06BD                                 ] };
 	key <AB07> { [    Arabic_meem, Arabic_maddaonalef                             ] };
 
-	key <AC01> { [    Arabic_alef,          UFE81                                 ] };
+	key <AC01> { [    Arabic_alef,   Arabic_madonalef                             ] };
 	key <AC02> { [    Arabic_seen,   Arabic_sheen                                 ] };
 	key <AC03> { [     Arabic_dal,     Arabic_dad                                 ] };
 	key <AC04> { [     Arabic_feh,     Arabic_veh                                 ] };
