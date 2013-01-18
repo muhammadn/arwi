@@ -182,7 +182,8 @@ xkb_symbols "qwerty"
         key <AC07> { [    Arabic_jeem, Arabic_tcheh           ] };
         key <AC08> { [    UFED9, UFED5                        ] };
         key <AC09> { [    UFEDD, UFEFB                        ] };
-        key <AC10> {  [      U06A9,    Arabic_semicolon  ]     };
+        key <AC10> { [      U06A9,    Arabic_semicolon        ] };
+        key <AC11> { [      NoSymbol,        quotedbl         ] };
 
         key <AD01> { [          U06A7,     Arabic_veh         ] };
         key <AD02> { [     Arabic_waw                         ] };
