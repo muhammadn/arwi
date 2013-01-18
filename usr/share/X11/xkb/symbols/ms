@@ -125,7 +125,7 @@ xkb_symbols "olpc" {
     key <AC01> {  [    Arabic_sheen,         greater  ] };
     key <AC02> {  [     Arabic_seen,            less  ] };
     key <AC05> {  [      Arabic_lam,       ampersand  ] };
-    key <AC10> {  [      Arabic_kaf                   ] };
+    key <AC10> {  [      Arabic_keheh                 ] };
     key <AC11> {  [      Arabic_tah                   ] };
 
     key <BKSL> {  [       backslash,             bar  ] };
