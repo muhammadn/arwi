@@ -155,7 +155,7 @@ xkb_symbols "qwerty"
 	key <AE05> {  [       0x1000665, Arabic_hamzaunderalef, 5 ]       };
 	key <AE06> {  [       0x1000666, Arabic_hamzaonyeh, 6    ]       };
 	key <AE07> {  [       0x1000667, Arabic_hamzaonwaw, 7      ]       };
-	key <AE08> {  [       0x1000668,        asterisk, 8      ]       };
+	key <AE08> {  [       0x1000668,        NoSymbol, 8      ]       };
 	key <AE09> {  [       0x1000669,      parenright, 9      ]       };
 	key <AE10> {  [       0x1000660,       parenleft, 0      ]       };
 	key <AE11> {  [           minus,      underscore      ]     };
