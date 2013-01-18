@@ -161,7 +161,8 @@ xkb_symbols "qwerty"
 	key <AE11> {  [           minus,      underscore      ]     };
 	key <AE12> {  [           equal,            plus      ]     };
 
-        key <AB01> { [	  Arabic_zain, Arabic_thal            ] };
+        key <LSGT> { [      bar,      brokenbar               ] };
+	key <AB01> { [	  Arabic_zain, Arabic_thal            ] };
 	key <AB02> { [    Arabic_khah, Arabic_hah             ] };
         key <AB03> { [    Arabic_tcheh, UFEB9                 ] };
         key <AB04> { [          U06C8                         ] };
@@ -192,7 +193,6 @@ xkb_symbols "qwerty"
         key <AD08> { [     Arabic_yeh                         ] };
         key <AD09> { [     Arabic_ain                         ] };
         key <AD10> { [     Arabic_veh,     Arabic_teh         ] };
-        key <LSGT> { [      bar,      brokenbar               ] };
 
 
 //others
