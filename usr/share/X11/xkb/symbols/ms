@@ -8,6 +8,7 @@
 // Version: 0.2.0
 // based on a keyboard map from an 'xkb/symbols/ar' file
 // based on keyboard map by Jamil Ahmad (Bangladesh) and Martin Vidner (arabic)
+// based on Mac OS X Jawi (qwerty) layout by Muhammad Nuzaihan Bin Kamal Luddin
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
@@ -141,7 +142,7 @@ xkb_symbols "olpc" {
 partial default alphanumeric_keys
 xkb_symbols "qwerty"
 {
-//        name[Group2] = "Jawi-qwerty";
+        name[Group1] = "Jawi (qwerty)";
 
 /Numbers
 
@@ -158,32 +159,48 @@ xkb_symbols "qwerty"
 	key <AE11> {  [           minus,      underscore      ]     };
 	key <AE12> {  [           equal,            plus      ]     };
 
-        key <AB01> { [    Arabic_khah,          UFEA1                                 ] };
-        key <AB02> { [   Arabic_tcheh,          UFEB9                                 ] };
-        key <AB03> { [          UFE86                                                 ] };
-        key <AB04> { [          UFE8F                                                 ] };
-        key <AB05> { [          UFEE5                                                 ] };
-        key <AB06> { [          UFEE1                                                 ] };
-        key <AC01> { [    Arabic_alef, Arabic_maddaonalef                                 ] };
-        key <AC02> { [    Arabic_seen,   Arabic_sheen                                 ] };
-        key <AC03> { [     Arabic_dal,     Arabic_dad                                 ] };
-        key <AC04> { [     Arabic_feh,     Arabic_veh                                 ] };
-        key <AC05> { [     Arabic_gaf,          U06A0                                 ] };
-        key <AC06> { [      Arabic_ha,     Arabic_hah                                 ] };
-        key <AC07> { [    Arabic_jeem,   Arabic_tcheh                                 ] };
-        key <AC08> { [          UFED9,          UFED5                                 ] };
-        key <AC09> { [          UFEDD,          UFEFB                                 ] };
-        key <AD01> { [          U06A7,     Arabic_veh                                 ] };
-        key <AD02> { [     Arabic_waw                                                 ] };
-        key <AD03> { [     Arabic_ain,   Arabic_ghain                                 ] };
-        key <AD04> { [      Arabic_ra,   Arabic_ghain                                 ] };
-        key <AD05> { [     Arabic_teh, Arabic_tehmarbuta                                 ] };
-        key <AD06> { [     Arabic_yeh, Arabic_alefmaksura                                 ] };
-        key <AD07> { [     Arabic_waw                                                 ] };
-        key <AD08> { [     Arabic_yeh                                                 ] };
-        key <AD09> { [     Arabic_ain                                                 ] };
-        key <AD10> { [     Arabic_veh,     Arabic_teh                                 ] };
-        key <BKSL> { [   Arabic_hamza                                                 ] };
-        key <LSGT> { [    Arabic_zain,          UFEAB                                 ] };
+        key <AB01> { [	  Arabic_zain,          UFEAB         ] };
+	key <AB02> { [    Arabic_khah,  UFEA1                 ] };
+        key <AB03> { [   Arabic_tcheh,          UFEB9         ] };
+        key <AB04> { [          UFE86                         ] };
+        key <AB05> { [          UFE8F                         ] };
+        key <AB06> { [     Arabic_noon                        ] };
+        key <AB07> { [     Arabic_meem, Arabic_madonalef      ] };
+	key <AB08> { [	   Arabic_comma, bracketright	      ] };
+        key <AB09> { [     period,  bracketleft               ] };
+        key <AB10> { [	   slash,   Arabic_question_mark      ] };
+
+        key <AC01> { [    Arabic_alef, Arabic_maddaonalef     ] };
+        key <AC02> { [    Arabic_seen,   Arabic_sheen         ] };
+        key <AC03> { [     Arabic_dal,     Arabic_dad         ] };
+        key <AC04> { [     Arabic_feh,     Arabic_veh         ] };
+        key <AC05> { [     Arabic_gaf,          U06A0         ] };
+        key <AC06> { [      Arabic_ha,     Arabic_hah         ] };
+        key <AC07> { [    Arabic_jeem,   Arabic_tcheh         ] };
+        key <AC08> { [          UFED9,          UFED5         ] };
+        key <AC09> { [          UFEDD,          UFEFB         ] };
+
+        key <AD01> { [          U06A7,     Arabic_veh         ] };
+        key <AD02> { [     Arabic_waw                         ] };
+        key <AD03> { [     Arabic_ain,   Arabic_ghain         ] };
+        key <AD04> { [      Arabic_ra,   Arabic_ghain         ] };
+        key <AD05> { [     Arabic_teh, Arabic_tehmarbuta      ] };
+        key <AD06> { [     Arabic_yeh, Arabic_alefmaksura     ] };
+        key <AD07> { [     Arabic_waw                         ] };
+        key <AD08> { [     Arabic_yeh                         ] };
+        key <AD09> { [     Arabic_ain                         ] };
+        key <AD10> { [     Arabic_veh,     Arabic_teh         ] };
+        key <BKSL> { [   Arabic_hamza                         ] };
+      key <LSGT> {  [             bar,      brokenbar       ]     };
+
+
+//others
+
+   key <ESC>  { [ Escape ] };
+
+    include "level3(ralt_switch)"
+
+    // End alphanumeric section
+
 };
 
