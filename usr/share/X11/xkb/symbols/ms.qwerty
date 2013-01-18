@@ -33,9 +33,9 @@ xkb_symbols "Jawi"
 	key <AD08> { [     Arabic_yeh                                                 ] };
 	key <AD09> { [     Arabic_ain                                                 ] };
 	key <AD10> { [     Arabic_veh,     Arabic_teh                                 ] };
-	key <AE01> { [        Farsi_1                                                 ] };
-	key <AE02> { [        Farsi_2,   Arabic_hamza                                 ] };
-	key <AE03> { [        Farsi_3,          UFE83                                 ] };
+	key <AE01> { [        NoSymbol                                                 ] };
+	key <AE02> { [        NoSymbol,   Arabic_hamza                                 ] };
+	key <AE03> { [        NoSymbol,          UFE83                                 ] };
 	key <AE04> { [       NoSymbol, Arabic_maddaonalef                                 ] };
 	key <AE05> { [       NoSymbol, Arabic_hamzaunderalef                                 ] };
 	key <AE06> { [       NoSymbol, Arabic_hamzaonyeh                                 ] };
