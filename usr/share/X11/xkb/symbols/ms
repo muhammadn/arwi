@@ -15,7 +15,7 @@ xkb_symbols "basic"
 {
         name[Group1] = "Jawi (qwerty)";
 
-/Numbers
+//Numbers
    
 	key <AE01> {  [       0x1000661,          exclam, 1      ]       };
 	key <AE02> {  [       0x1000662,    Arabic_hamza, 2      ]       };
@@ -30,6 +30,7 @@ xkb_symbols "basic"
 	key <AE11> {  [           minus,      underscore      ]     };
 	key <AE12> {  [           equal,            plus      ]     };
 
+// Alphabets
         key <LSGT> { [      bar,      brokenbar               ] };
 	key <AB01> { [	  Arabic_zain, Arabic_thal            ] };
 	key <AB02> { [    Arabic_khah, Arabic_hah             ] };
