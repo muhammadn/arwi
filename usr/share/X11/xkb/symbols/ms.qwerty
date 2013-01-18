@@ -14,6 +14,7 @@ xkb_symbols "qwerty"
 	key <AB05> { [     Arabic_beh,     Arabic_peh                                 ] };
 	key <AB06> { [    Arabic_noon,          U06BD                                 ] };
 	key <AB07> { [    Arabic_meem, Arabic_maddaonalef                                 ] };
+
 	key <AC01> { [          UFE8D,          UFE81                                 ] };
 	key <AC02> { [    Arabic_seen,   Arabic_sheen                                 ] };
 	key <AC03> { [     Arabic_dal,     Arabic_dad                                 ] };
@@ -23,6 +24,7 @@ xkb_symbols "qwerty"
 	key <AC07> { [    Arabic_jeem,   Arabic_tcheh                                 ] };
 	key <AC08> { [     Arabic_kaf,     Arabic_qaf                                 ] };
 	key <AC09> { [     Arabic_lam,          UFEFB                                 ] };
+
 	key <AD01> { [     Arabic_qaf,     Arabic_veh                                 ] };
 	key <AD02> { [     Arabic_waw,          UFE7C                                 ] };
 	key <AD03> { [     Arabic_ain,   Arabic_ghain                                 ] };
@@ -33,6 +35,7 @@ xkb_symbols "qwerty"
 	key <AD08> { [     Arabic_yeh                                                 ] };
 	key <AD09> { [     Arabic_ain                                                 ] };
 	key <AD10> { [     Arabic_veh,     Arabic_teh                                 ] };
+
 	key <AE01> { [        NoSymbol                                                 ] };
 	key <AE02> { [        NoSymbol,   Arabic_hamza                                 ] };
 	key <AE03> { [        NoSymbol,          UFE83                                 ] };
