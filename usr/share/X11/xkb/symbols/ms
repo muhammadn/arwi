@@ -8,7 +8,7 @@
 // Version: 0.2.0
 // based on a keyboard map from an 'xkb/symbols/ar' file
 // based on keyboard map by Jamil Ahmad (Bangladesh) and Martin Vidner (arabic)
-// based on Mac OS X Jawi (qwerty) layout by Muhammad Nuzaihan Bin Kamal Luddin
+// based on Mac OS X Jawi (qwerty) layout by Muhammad Nuzaihan Bin Kamal Luddin.// no code from Mac OS X was used in creating Mac OS X Jawi (qwerty) layout.
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
