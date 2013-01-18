@@ -19,7 +19,7 @@ xkb_symbols "qwerty"
 	key <AC02> { [    Arabic_seen,   Arabic_sheen                                 ] };
 	key <AC03> { [     Arabic_dal,     Arabic_dad                                 ] };
 	key <AC04> { [     Arabic_feh,     Arabic_veh                                 ] };
-	key <AC05> { [          UFB92,          U06A0                                 ] };
+	key <AC05> { [     Arabic_gaf,          U06A0                                 ] };
 	key <AC06> { [      Arabic_ha,          UFEA1                                 ] };
 	key <AC07> { [    Arabic_jeem,   Arabic_tcheh                                 ] };
 	key <AC08> { [     Arabic_kaf,     Arabic_qaf                                 ] };
