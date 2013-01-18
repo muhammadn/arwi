@@ -192,7 +192,7 @@ xkb_symbols "qwerty"
         key <AD08> { [     Arabic_yeh                         ] };
         key <AD09> { [     Arabic_ain                         ] };
         key <AD10> { [     Arabic_veh,     Arabic_teh         ] };
-      key <LSGT> {  [             bar,      brokenbar       ]     };
+        key <LSGT> { [      bar,      brokenbar               ] };
 
 
 //others
