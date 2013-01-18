@@ -4,7 +4,7 @@
 // For more about the software, see http://code.google.com/p/keyboardlayouteditor
 //
 
-xkb_symbols "Jawi"
+xkb_symbols "qwerty"
 {
 	name[Group1] = "Jawi (qwerty)";
 	key <AB01> { [    Arabic_zain,    Arabic_thal                                 ] };
