@@ -50,7 +50,7 @@ xkb_symbols "basic"
         key <AC05> { [    Arabic_gaf, U06A0                   ] };
         key <AC06> { [    Arabic_ha, Arabic_hah               ] };
         key <AC07> { [    Arabic_jeem, Arabic_tcheh           ] };
-        key <AC08> { [    UFED9, UFED5                        ] };
+        key <AC08> { [    Arabic_keheh, UFED5                        ] };
         key <AC09> { [    UFEDD, UFEFB                        ] };
         key <AC10> { [      U06A9,    Arabic_semicolon        ] };
         key <AC11> { [      apostrophe,        quotedbl         ] };
@@ -125,7 +125,7 @@ xkb_symbols "olpc" {
     key <AC01> {  [    Arabic_sheen,         greater  ] };
     key <AC02> {  [     Arabic_seen,            less  ] };
     key <AC05> {  [      Arabic_lam,       ampersand  ] };
-    key <AC10> {  [      Arabic_keheh                 ] };
+    key <AC10> {  [      Arabic_kaf                   ] };
     key <AC11> {  [      Arabic_tah                   ] };
 
     key <BKSL> {  [       backslash,             bar  ] };
