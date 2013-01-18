@@ -4,35 +4,41 @@
 // For more about the software, see http://code.google.com/p/keyboardlayouteditor
 //
 
-xkb_symbols "qwerty"
+xkb_symbols "Jawi"
 {
-	name[Group1] = "jawi-qwerty";
-	key <AB01> { [    Arabic_khah,          UFEA1                                 ] };
-	key <AB02> { [   Arabic_tcheh,          UFEB9                                 ] };
-	key <AB03> { [          UFE86                                                 ] };
-	key <AB04> { [          UFE8F                                                 ] };
-	key <AB05> { [          UFEE5                                                 ] };
-	key <AB06> { [          UFEE1                                                 ] };
-	key <AC01> { [    Arabic_alef, Arabic_maddaonalef                                 ] };
+	name[Group1] = "Jawi (qwerty)";
+	key <AB01> { [    Arabic_zain,    Arabic_thal                                 ] };
+	key <AB02> { [    Arabic_khah,     Arabic_hah                                 ] };
+	key <AB03> { [   Arabic_tcheh,          UFEB9                                 ] };
+	key <AB04> { [          U06C8                                                 ] };
+	key <AB05> { [     Arabic_beh,     Arabic_peh                                 ] };
+	key <AB06> { [    Arabic_noon,          U06BD                                 ] };
+	key <AB07> { [    Arabic_meem, Arabic_maddaonalef                                 ] };
+	key <AC01> { [          UFE8D,          UFE81                                 ] };
 	key <AC02> { [    Arabic_seen,   Arabic_sheen                                 ] };
 	key <AC03> { [     Arabic_dal,     Arabic_dad                                 ] };
 	key <AC04> { [     Arabic_feh,     Arabic_veh                                 ] };
-	key <AC05> { [     Arabic_gaf,          U06A0                                 ] };
-	key <AC06> { [      Arabic_ha,     Arabic_hah                                 ] };
+	key <AC05> { [          UFB92,          U06A0                                 ] };
+	key <AC06> { [      Arabic_ha,          UFEA1                                 ] };
 	key <AC07> { [    Arabic_jeem,   Arabic_tcheh                                 ] };
-	key <AC08> { [          UFED9,          UFED5                                 ] };
-	key <AC09> { [          UFEDD,          UFEFB                                 ] };
-	key <AD01> { [          U06A7,     Arabic_veh                                 ] };
-	key <AD02> { [     Arabic_waw                                                 ] };
+	key <AC08> { [     Arabic_kaf,     Arabic_qaf                                 ] };
+	key <AC09> { [     Arabic_lam,          UFEFB                                 ] };
+	key <AD01> { [     Arabic_qaf,     Arabic_veh                                 ] };
+	key <AD02> { [     Arabic_waw,          UFE7C                                 ] };
 	key <AD03> { [     Arabic_ain,   Arabic_ghain                                 ] };
 	key <AD04> { [      Arabic_ra,   Arabic_ghain                                 ] };
-	key <AD05> { [     Arabic_teh, Arabic_tehmarbuta                                 ] };
+	key <AD05> { [     Arabic_teh,          UFE93                                 ] };
 	key <AD06> { [     Arabic_yeh, Arabic_alefmaksura                                 ] };
 	key <AD07> { [     Arabic_waw                                                 ] };
 	key <AD08> { [     Arabic_yeh                                                 ] };
 	key <AD09> { [     Arabic_ain                                                 ] };
 	key <AD10> { [     Arabic_veh,     Arabic_teh                                 ] };
-	key <BKSL> { [   Arabic_hamza                                                 ] };
-	key <LSGT> { [    Arabic_zain,          UFEAB                                 ] };
+	key <AE01> { [        Farsi_1                                                 ] };
+	key <AE02> { [        Farsi_2,   Arabic_hamza                                 ] };
+	key <AE03> { [        Farsi_3,          UFE83                                 ] };
+	key <AE04> { [       NoSymbol, Arabic_maddaonalef                                 ] };
+	key <AE05> { [       NoSymbol, Arabic_hamzaunderalef                                 ] };
+	key <AE06> { [       NoSymbol, Arabic_hamzaonyeh                                 ] };
+	key <AE07> { [       NoSymbol, Arabic_hamzaonwaw                                 ] };
 };
 
