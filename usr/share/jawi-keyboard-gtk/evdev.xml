@@ -5468,7 +5468,7 @@
          <configItem>
            <name> ms </name>
            <shortDescription> ms </shortDescription>
-           <description> Jawi </description>
+           <description> Jawi (qwerty)</description>
            <languageList>
               <iso639Id> ms </iso639Id>
            </languageList>
