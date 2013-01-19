@@ -180,7 +180,7 @@ xkb_symbols "qwerty"
         key <AC06> { [    Arabic_ha, Arabic_hah               ] };
         key <AC07> { [    Arabic_jeem, Arabic_tcheh           ] };
         key <AC08> { [    Arabic_keheh, UFED5                        ] };
-        key <AC09> { [    UFEDD, UFEFB                        ] };
+        key <AC09> { [    Arabic_lam, UFEFB                        ] };
         key <AC10> { [      U06A9,    Arabic_semicolon        ] };
         key <AC11> { [      apostrophe,        quotedbl         ] };
 
