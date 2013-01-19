@@ -19,7 +19,7 @@ xkb_symbols "basic"
    
 	key <AE01> {  [       0x1000661,          exclam, 1      ]       };
 	key <AE02> {  [       0x1000662,    Arabic_hamza, 2      ]       };
-	key <AE03> {  [       0x1000663,     	   UFE83, 3      ]       };
+	key <AE03> {  [       0x1000663,  Arabic_hamzaonalef, 3  ]       };
 	key <AE04> {  [       0x1000664,  Arabic_maddaonalef, 4  ]       };
 	key <AE05> {  [       0x1000665, Arabic_hamzaunderalef, 5 ]       };
 	key <AE06> {  [       0x1000666, Arabic_hamzaonyeh, 6    ]       };
