@@ -47,10 +47,10 @@ xkb_symbols "basic"
         key <AC02> { [    Arabic_seen, Arabic_sheen           ] };
         key <AC03> { [    Arabic_dal, Arabic_dad              ] };
         key <AC04> { [    Arabic_feh, Arabic_veh              ] };
-        key <AC05> { [    Arabic_gaf, U06A0                   ] };
+        key <AC05> { [    U06AC, U06A0                        ] };
         key <AC06> { [    Arabic_ha, Arabic_hah               ] };
         key <AC07> { [    Arabic_jeem, Arabic_tcheh           ] };
-        key <AC08> { [    Arabic_kaf, Arabic_qaf            ] };
+        key <AC08> { [    Arabic_kaf, Arabic_qaf              ] };
         key <AC09> { [    Arabic_lam                          ] };
         key <AC10> { [      Arabic_semicolon, colon           ] };
         key <AC11> { [      apostrophe,        quotedbl       ] };
