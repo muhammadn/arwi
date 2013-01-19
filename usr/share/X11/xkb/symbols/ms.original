@@ -179,12 +179,12 @@ xkb_symbols "qwerty"
         key <AC05> { [    Arabic_gaf, U06A0                   ] };
         key <AC06> { [    Arabic_ha, Arabic_hah               ] };
         key <AC07> { [    Arabic_jeem, Arabic_tcheh           ] };
-        key <AC08> { [    Arabic_keheh, UFED5                        ] };
-        key <AC09> { [    Arabic_lam, UFEFB                        ] };
-        key <AC10> { [      U06A9,    Arabic_semicolon        ] };
-        key <AC11> { [      apostrophe,        quotedbl         ] };
+        key <AC08> { [    Arabic_keheh, Arabic_qaf            ] };
+        key <AC09> { [    Arabic_lam                          ] };
+        key <AC10> { [      colon,    Arabic_semicolon        ] };
+        key <AC11> { [      apostrophe,        quotedbl       ] };
 
-        key <AD01> { [          U06A7,     Arabic_veh         ] };
+        key <AD01> { [          Arabic_qaf,     Arabic_veh         ] };
         key <AD02> { [     Arabic_waw, Arabic_zah             ] };
         key <AD03> { [     Arabic_ain,   Arabic_ghain         ] };
         key <AD04> { [      Arabic_ra,   Arabic_ghain         ] };
