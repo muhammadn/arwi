@@ -52,7 +52,7 @@ xkb_symbols "basic"
         key <AC07> { [    Arabic_jeem, Arabic_tcheh           ] };
         key <AC08> { [    Arabic_keheh, Arabic_qaf            ] };
         key <AC09> { [    Arabic_lam                          ] };
-        key <AC10> { [      colon,    Arabic_semicolon        ] };
+        key <AC10> { [      Arabic_semicolon, colon           ] };
         key <AC11> { [      apostrophe,        quotedbl       ] };
 
         key <AD01> { [     Arabic_qaf,     Arabic_veh         ] };
