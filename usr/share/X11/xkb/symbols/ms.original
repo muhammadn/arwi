@@ -145,7 +145,7 @@ xkb_symbols "qwerty"
 {
         name[Group1] = "Jawi (qwerty)";
 
-/Numbers
+//Numbers
    
 	key <AE01> {  [       0x1000661,          exclam, 1      ]       };
 	key <AE02> {  [       0x1000662,    Arabic_hamza, 2      ]       };
@@ -155,11 +155,12 @@ xkb_symbols "qwerty"
 	key <AE06> {  [       0x1000666, Arabic_hamzaonyeh, 6    ]       };
 	key <AE07> {  [       0x1000667, Arabic_hamzaonwaw, 7      ]       };
 	key <AE08> {  [       0x1000668,        NoSymbol, 8      ]       };
-	key <AE09> {  [       0x1000669,      parenright, 9      ]       };
-	key <AE10> {  [       0x1000660,       parenleft, 0      ]       };
+	key <AE09> {  [       0x1000669,      parenleft, 9      ]       };
+	key <AE10> {  [       0x1000660,       parenright, 0      ]       };
 	key <AE11> {  [           minus,      underscore      ]     };
 	key <AE12> {  [           equal,            plus      ]     };
 
+// Alphabets
         key <LSGT> { [      bar,      brokenbar               ] };
 	key <AB01> { [	  Arabic_zain, Arabic_thal            ] };
 	key <AB02> { [    Arabic_khah, Arabic_hah             ] };
