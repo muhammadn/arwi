@@ -169,18 +169,18 @@ xkb_symbols "qwerty"
         key <AB05> { [    Arabic_beh, Arabic_peh              ] };
         key <AB06> { [    Arabic_noon, U06BD                  ] };
         key <AB07> { [    Arabic_meem, Arabic_madonalef       ] };
-	key <AB08> { [	  Arabic_comma, 	      ] };
-        key <AB09> { [    period,                 ] };
+	key <AB08> { [	  Arabic_comma, 	              ] };
+        key <AB09> { [    period,                             ] };
         key <AB10> { [	  slash, Arabic_question_mark         ] };
 
         key <AC01> { [    Arabic_alef, Arabic_maddaonalef     ] };
         key <AC02> { [    Arabic_seen, Arabic_sheen           ] };
         key <AC03> { [    Arabic_dal, Arabic_dad              ] };
         key <AC04> { [    Arabic_feh, Arabic_veh              ] };
-        key <AC05> { [    Arabic_gaf, U06A0                   ] };
+        key <AC05> { [    U06AC, U06A0                        ] };
         key <AC06> { [    Arabic_ha, Arabic_hah               ] };
         key <AC07> { [    Arabic_jeem, Arabic_tcheh           ] };
-        key <AC08> { [    Arabic_kaf, Arabic_qaf            ] };
+        key <AC08> { [    Arabic_kaf, Arabic_qaf              ] };
         key <AC09> { [    Arabic_lam                          ] };
         key <AC10> { [      Arabic_semicolon, colon           ] };
         key <AC11> { [      apostrophe,        quotedbl       ] };
