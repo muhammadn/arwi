@@ -25,8 +25,8 @@ xkb_symbols "basic"
 	key <AE06> {  [       0x1000666, Arabic_hamzaonyeh, 6    ]       };
 	key <AE07> {  [       0x1000667, Arabic_hamzaonwaw, 7      ]       };
 	key <AE08> {  [       0x1000668,        NoSymbol, 8      ]       };
-	key <AE09> {  [       0x1000669,      parenright, 9      ]       };
-	key <AE10> {  [       0x1000660,       parenleft, 0      ]       };
+	key <AE09> {  [       0x1000669,      parenleft, 9      ]       };
+	key <AE10> {  [       0x1000660,       parenright, 0      ]       };
 	key <AE11> {  [           minus,      underscore      ]     };
 	key <AE12> {  [           equal,            plus      ]     };
 
