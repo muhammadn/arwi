@@ -1527,6 +1527,25 @@
     </layout>
     <layout>
       <configItem>
+        <name>ms</name>
+    
+        <shortDescription>ms</shortDescription>
+        <description>Jawi</description>
+          <languageList>
+           <iso639Id>ms</iso639Id>
+          </languageList>
+      </configItem>
+      <variantList>
+       <variant>
+         <configItem>
+          <name>qwerty</name>
+            <description>Jawi (qwerty)</description>
+         </configItem>
+       </variant>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
         <name>al</name>
         
         <shortDescription>sq</shortDescription>
@@ -5463,18 +5482,6 @@
         </variant>
       </variantList>
     </layout>
-
-<layout>
-         <configItem>
-           <name> ms </name>
-           <shortDescription> ms </shortDescription>
-           <description> Jawi (qwerty)</description>
-           <languageList>
-              <iso639Id> ms </iso639Id>
-           </languageList>
-         </configItem>
-         <variantList/>
-       </layout>
 
   </layoutList>
   <optionList>
