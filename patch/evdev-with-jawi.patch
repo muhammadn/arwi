@@ -1,0 +1,36 @@
+diff -uNr basic/evdev.xml with-jawi/evdev.xml
+--- basic/evdev.xml	2013-01-20 04:35:26.677548133 -0800
++++ with-jawi/evdev.xml	2013-01-20 04:40:06.924933424 -0800
+@@ -1527,6 +1527,25 @@
+     </layout>
+     <layout>
+       <configItem>
++        <name>ms</name>
++
++        <shortDescription>ms</shortDescription>
++        <description>Jawi</description>
++          <languageList>
++           <iso639Id>ms</iso639Id>
++          </languageList>
++      </configItem>
++      <variantList>
++       <variant>
++         <configItem>
++          <name>qwerty</name>
++            <description>Jawi (qwerty)</description>
++         </configItem>
++       </variant>
++      </variantList>
++    </layout>
++    <layout>
++      <configItem>
+         <name>al</name>
+         
+         <shortDescription>sq</shortDescription>
+@@ -6514,4 +6533,4 @@
+       </option>
+     </group>
+   </optionList>
+-</xkbConfigRegistry>
+\ No newline at end of file
++</xkbConfigRegistry>
