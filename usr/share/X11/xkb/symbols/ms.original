@@ -195,8 +195,8 @@ xkb_symbols "qwerty"
         key <AD08> { [     Arabic_yeh                         ] };
         key <AD09> { [     Arabic_ain                         ] };
         key <AD10> { [     Arabic_veh,     Arabic_teh         ] };
-	key <AD11> { [     bracketleft, bracesleft            ] };
-        key <AD12> { [     bracketright, bracesright          ] };
+	key <AD11> { [     bracketright, bracesright          ] };
+        key <AD12> { [     bracketleft, bracesleft            ] };
         key <AD13> { [     backslash,             bar         ] };
 
 
