@@ -66,8 +66,8 @@ xkb_symbols "basic"
         key <AD08> { [     Arabic_yeh                         ] };
         key <AD09> { [     Arabic_ain                         ] };
         key <AD10> { [     Arabic_veh, Arabic_teh             ] };
-	key <AD11> { [     bracketleft, braceleft             ] };
-        key <AD12> { [     bracketright, braceright           ] };
+	key <AD11> { [     bracketright, braceright             ] };
+        key <AD12> { [     bracketleft, braceleft           ] };
         key <AD13> { [     backslash,             bar         ] };
 
 
