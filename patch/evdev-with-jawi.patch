@@ -1,6 +1,6 @@
 diff -uNr basic/evdev.xml with-jawi/evdev.xml
 --- basic/evdev.xml	2013-01-20 04:35:26.677548133 -0800
-+++ with-jawi/evdev.xml	2013-01-20 04:40:06.924933424 -0800
++++ with-jawi/evdev.xml	2013-01-20 20:28:43.423931077 -0800
 @@ -1527,6 +1527,25 @@
      </layout>
      <layout>
@@ -16,8 +16,8 @@ diff -uNr basic/evdev.xml with-jawi/evdev.xml
 +      <variantList>
 +       <variant>
 +         <configItem>
-+          <name>qwerty</name>
-+            <description>Jawi (qwerty)</description>
++          <name>phonetic</name>
++            <description>Jawi (phonetic)</description>
 +         </configItem>
 +       </variant>
 +      </variantList>
