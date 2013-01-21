@@ -134,8 +134,8 @@ xkb_symbols "qwerty"
         key <AD05> { [     Arabic_teh, Arabic_tehmarbuta      ] };
         key <AD06> { [     Arabic_yeh, Arabic_alefmaksura     ] };
         key <AD07> { [     Arabic_waw, Arabic_tah             ] };
-        key <AD08> { [     Arabic_yeh, U200C                  ] }; // U200C - ZWNJ
-        key <AD09> { [     Arabic_ain, U0640                  ] }; // U0640 - tatweel
+        key <AD08> { [     Arabic_yeh, U0640                  ] }; // U0640 - tatweel
+        key <AD09> { [     Arabic_ain, U200C                  ] }; // U200C - ZWNJ
         key <AD10> { [     Arabic_veh, Arabic_teh             ] };
         key <AD11> { [     bracketright, braceright           ] };
         key <AD12> { [     bracketleft, braceleft             ] };
