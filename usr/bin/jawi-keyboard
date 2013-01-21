@@ -12,7 +12,7 @@ FALSE "See license" \
 FALSE "See version")
 
 if [[ "$CHOICE" =~ "See Keyboard Layout" ]]; then
-eog %U /usr/local/share/jawi-keyboard-gtk/jawi-keyboard-layout-diagram.png
+eog %U /usr/share/jawi-keyboard/jawi-keyboard-layout-diagram.png
 /usr/bin/jawi-keyboard
 fi
 
@@ -23,7 +23,7 @@ fi
 
 if [[ "$CHOICE" =~ "Restore Jawi Keyboard" ]]; then
 rootpw=`zenity --title="Root-Password"  --text='Please enter password to proceed with repair' --hide-text="" --entry`
-echo $rootpw | sudo -S cp -r /usr/local/share/jawi-keyboard-gtk/usr /
+echo $rootpw | sudo -S tar xvf /usr/share/jawi-keyboard/restore.tgz -C /
 zenity --info --title="Restore complete" --text="Restore completed. Please Log out and Log in for changes to take effect."
 fi
 
