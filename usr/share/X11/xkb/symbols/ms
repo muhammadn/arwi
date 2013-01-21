@@ -9,7 +9,7 @@
 // based on a keyboard map from an 'xkb/symbols/ar' file
 // based on keyboard map by Jamil Ahmad (Bangladesh) and Martin Vidner (arabic)
 // based on Mac OS X Jawi (qwerty) layout by Muhammad Nuzaihan Bin Kamal Luddin  < zaihan at unrealasia.net >
-// added Jawi (qwerty) support on 18 Jan 2013
+// added Jawi (phonetic) support on 18 Jan 2013
 
 
 partial default alphanumeric_keys 
@@ -83,9 +83,9 @@ xkb_symbols "basic" {
 // symbol names: see /usr/X11R6/include/X11/keysymdef.h (XFree86-devel.rpm)
 
 partial default alphanumeric_keys
-xkb_symbols "qwerty"
+xkb_symbols "phonetic"
 {
-        name[Group1] = "Jawi (qwerty)";
+        name[Group1] = "Jawi (phonetic)";
 
 //Numbers
 
