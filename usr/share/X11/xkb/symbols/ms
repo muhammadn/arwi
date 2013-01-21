@@ -128,7 +128,7 @@ xkb_symbols "phonetic"
         key <AC10> { [      Arabic_semicolon, colon           ] };
         key <AC11> { [      apostrophe,        quotedbl       ] };
 
-        key <AD01> { [     Arabic_qaf, Arabic_veh             ] };
+        key <AD01> { [     Arabic_qaf, U06A8	              ] };
         key <AD02> { [     Arabic_waw, Arabic_zah             ] }; 
         key <AD03> { [     Arabic_ain, Arabic_ghain           ] };
         key <AD04> { [     Arabic_ra,  Arabic_ghain           ] };
@@ -137,7 +137,7 @@ xkb_symbols "phonetic"
         key <AD07> { [     Arabic_waw, Arabic_tah             ] };
         key <AD08> { [     Arabic_yeh, U0640                  ] }; // U0640 - tatweel
         key <AD09> { [     Arabic_ain, U200C                  ] }; // U200C - ZWNJ
-        key <AD10> { [     Arabic_veh, Arabic_teh             ] };
+        key <AD10> { [     U06A8, Arabic_teh                  ] };
         key <AD11> { [     bracketright, braceright           ] };
         key <AD12> { [     bracketleft, braceleft             ] };
         key <AD13> { [     backslash,             bar         ] };
