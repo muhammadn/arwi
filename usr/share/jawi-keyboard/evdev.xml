@@ -1528,7 +1528,7 @@
     <layout>
       <configItem>
         <name>ms</name>
-    
+
         <shortDescription>ms</shortDescription>
         <description>Jawi</description>
           <languageList>
@@ -1538,8 +1538,8 @@
       <variantList>
        <variant>
          <configItem>
-          <name>qwerty</name>
-            <description>Jawi (qwerty)</description>
+          <name>phonetic</name>
+            <description>Jawi (phonetic)</description>
          </configItem>
        </variant>
       </variantList>
@@ -5324,8 +5324,8 @@
     </layout>
     <layout>
       <configItem>
-        <name>ke</name>     
-
+        <name>ke</name>
+        
         <shortDescription>sw</shortDescription>
         <description>Swahili (Kenya)</description>
         <languageList>
@@ -5482,7 +5482,6 @@
         </variant>
       </variantList>
     </layout>
-
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
