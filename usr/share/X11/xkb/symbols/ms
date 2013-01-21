@@ -10,6 +10,7 @@
 // based on keyboard map by Jamil Ahmad (Bangladesh) and Martin Vidner (arabic)
 // based on Mac OS X Jawi (qwerty) layout by Muhammad Nuzaihan Bin Kamal Luddin  < zaihan at unrealasia.net >
 // added Jawi (phonetic) support on 18 Jan 2013
+// Version: 0.1.3
 
 
 partial default alphanumeric_keys 
