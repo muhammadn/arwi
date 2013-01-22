@@ -23,7 +23,7 @@ fi
 
 if [[ "$CHOICE" =~ "Restore Jawi Keyboard" ]]; then
 rootpw=`zenity --title="Root-Password"  --text='Please enter password to proceed with repair' --hide-text="" --entry`
-echo $rootpw | sudo -S tar xvf /usr/share/jawi-keyboard/restore.tgz -C /
+echo $rootpw | sudo -S tar zxvf /usr/share/jawi-keyboard/restore.tgz -C /
 zenity --info --title="Restore complete" --text="Restore completed. Please Log out and Log in for changes to take effect."
 fi
 
