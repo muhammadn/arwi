@@ -129,7 +129,7 @@ xkb_symbols "phonetic"
         key <AC11> { [      apostrophe,        quotedbl       ] };
 
         key <AD01> { [     Arabic_qaf, Arabic_veh             ] };
-        key <AD02> { [     Arabic_waw, UFE7C                  ] }; 
+        key <AD02> { [     Arabic_waw, Arabic_shadda          ] }; 
         key <AD03> { [     Arabic_ain, Arabic_ghain           ] };
         key <AD04> { [     Arabic_ra,  Arabic_ghain           ] };
         key <AD05> { [     Arabic_teh, Arabic_tehmarbuta      ] };
