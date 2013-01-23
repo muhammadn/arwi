@@ -108,7 +108,7 @@ xkb_symbols "phonetic"
         key <AB01> { [    Arabic_zain, Arabic_thal            ] };
         key <AB02> { [    Arabic_khah, Arabic_hah             ] };
         key <AB03> { [    Arabic_tcheh, UFEB9                 ] };
-        key <AB04> { [    U06CF                               ] };
+        key <AB04> { [    U06CF, Arabic_zah                   ] };
         key <AB05> { [    Arabic_beh, Arabic_peh              ] };
         key <AB06> { [    Arabic_noon, U06BD                  ] };
         key <AB07> { [    Arabic_meem, Arabic_madonalef       ] };
@@ -129,7 +129,7 @@ xkb_symbols "phonetic"
         key <AC11> { [      apostrophe,        quotedbl       ] };
 
         key <AD01> { [     Arabic_qaf, Arabic_veh             ] };
-        key <AD02> { [     Arabic_waw, Arabic_zah             ] }; 
+        key <AD02> { [     Arabic_waw, UFE7C                  ] }; 
         key <AD03> { [     Arabic_ain, Arabic_ghain           ] };
         key <AD04> { [     Arabic_ra,  Arabic_ghain           ] };
         key <AD05> { [     Arabic_teh, Arabic_tehmarbuta      ] };
