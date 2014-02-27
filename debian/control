@@ -1,0 +1,9 @@
+Source: jawi-keyboard
+Maintainer: Muhammad Nuzaihan Bin Kamal Luddin <zaihan@unrealasia.net>
+Section: misc
+Priority: optional
+
+Package: jawi-keyboard
+Architecture: all
+Description: Jawi keyboard support
+ Jawi keyboard support for Ubuntu
