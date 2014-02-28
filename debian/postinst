@@ -1,0 +1,5 @@
+#! /bin/bash
+cp /usr/share/jawi-keyboard/evdev.xml /usr/share/X11/xkb/rules
+if zenity --title "Install Completed" --question --text="Do you wish to configure keyboard now? If you wish to do it later, please open Menu > Keyboard Layout > + sign > choose "Jawi" . Please log out and log in after configuring"; then
+    gnome-control-center region
+fi

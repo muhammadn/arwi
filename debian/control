@@ -1,9 +1,16 @@
 Source: jawi-keyboard
 Maintainer: Muhammad Nuzaihan Bin Kamal Luddin <zaihan@unrealasia.net>
-Section: misc
-Priority: optional
+Section: x11
+Priority: extra
+# Version: 1.0.8-0ubuntu1
 
 Package: jawi-keyboard
-Architecture: all
-Description: Jawi keyboard support
- Jawi keyboard support for Ubuntu
+Depends: zenity (>= 2.32.1)
+Build-Depends: debhelper (>= 7)
+Architecture: any
+Homepage: http://launchpad.com/jawi
+Description: Jawi qwerty keyboard
+ Jawi qwerty keyboard provides layout in arabic lettering
+ writing for the malay language with added alphabets which
+ is not present in the normal Hijaiyah letters, for arabic
+ keyboards and for standard keyboards in phonetics.
