@@ -2,11 +2,10 @@ Source: jawi-keyboard
 Maintainer: Muhammad Nuzaihan Bin Kamal Luddin <zaihan@unrealasia.net>
 Section: x11
 Priority: extra
-# Version: 1.0.8-0ubuntu1
+Build-Depends: debhelper (>= 7)
 
 Package: jawi-keyboard
 Depends: zenity (>= 2.32.1)
-Build-Depends: debhelper (>= 7)
 Architecture: all
 Homepage: http://launchpad.com/jawi
 Description: Jawi qwerty keyboard

@@ -1,4 +1,4 @@
-jawi-keyboard (1.0.13-0ubuntu1) quantal; urgency=high
+jawi-keyboard (1.0.14-0ubuntu1) quantal; urgency=high
 
   * Fix jawi-restore after apt-get upgrade
 
