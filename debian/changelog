@@ -1,5 +1,5 @@
-jawi-keyboard (1.0.8-0ubuntu1) precise; urgency=high
+jawi-keyboard (1.0.13-0ubuntu1) quantal; urgency=high
 
-  * Fix jawi-restore software (jawi breaks after apt-get upgrade)
+  * Fix jawi-restore after apt-get upgrade
 
- -- Muhammad Nuzaihan Bin Kamal Luddin <zaihan@unrealasia.net>  Thu, 27 Feb 2014 09:32:49 +0800
+ -- Muhammad Nuzaihan Bin Kamal Luddin (Personal key) <zaihan@unrealasia.net>  Thu, 27 Feb 2014 09:32:49 +0800

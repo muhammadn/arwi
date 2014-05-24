@@ -7,7 +7,7 @@ Priority: extra
 Package: jawi-keyboard
 Depends: zenity (>= 2.32.1)
 Build-Depends: debhelper (>= 7)
-Architecture: any
+Architecture: all
 Homepage: http://launchpad.com/jawi
 Description: Jawi qwerty keyboard
  Jawi qwerty keyboard provides layout in arabic lettering
