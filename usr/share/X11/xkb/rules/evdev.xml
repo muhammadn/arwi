@@ -1528,7 +1528,6 @@
     <layout>
       <configItem>
         <name>ms</name>
-
         <shortDescription>ms</shortDescription>
         <description>Jawi</description>
           <languageList>
@@ -1540,6 +1539,24 @@
          <configItem>
           <name>phonetic</name>
             <description>Jawi (phonetic)</description>
+         </configItem>
+       </variant>
+      </variantList>
+    </layout>
+    <layout> 
+      <configItem>
+        <name>aw</name>
+        <shortDescription>aw</shortDescription>
+        <description>Arwi</description>
+          <languageList>
+           <iso639Id>aw</iso639Id>
+          </languageList>
+      </configItem>
+      <variantList>
+       <variant>
+         <configItem>
+          <name>phonetic</name>
+            <description>Arwi (phonetic)</description>
          </configItem>
        </variant>
       </variantList>

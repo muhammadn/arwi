@@ -15,7 +15,7 @@
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
-    name[Group1]= "Jawi";
+    name[Group1]= "Arwi";
 
 //Numbers
 
@@ -86,7 +86,7 @@ xkb_symbols "basic" {
 partial default alphanumeric_keys
 xkb_symbols "phonetic"
 {
-        name[Group1] = "Jawi (phonetic)";
+        name[Group1] = "Arwi (phonetic)";
 
 //Numbers
 
