@@ -110,7 +110,7 @@ xkb_symbols "phonetic"
         key <AB03> { [    Arabic_tcheh, UFEB9                 ] };
         key <AB04> { [    U06CF, Arabic_zah                   ] };
         key <AB05> { [    Arabic_beh, Arabic_peh              ] };
-        key <AB06> { [    Arabic_noon, U06BD                  ] };
+        key <AB06> { [    Arabic_noon, U06B7                  ] }; // U06B7 - Arwi 'na'
         key <AB07> { [    Arabic_meem, Arabic_madonalef       ] };
         key <AB08> { [    Arabic_comma, rightcaret            ] };
         key <AB09> { [    period, leftcaret                   ] };
@@ -119,8 +119,8 @@ xkb_symbols "phonetic"
         key <AC01> { [    Arabic_alef, Arabic_maddaonalef     ] };
         key <AC02> { [    Arabic_seen, Arabic_sheen           ] };
         key <AC03> { [    Arabic_dal, Arabic_dad              ] };
-        key <AC04> { [    Arabic_feh, Arabic_veh              ] };
-        key <AC05> { [    U06AC, U06A0                        ] };
+        key <AC04> { [    Arabic_feh, U06A3                   ] }; // U06A3 - Arwi 'pa'
+        key <AC05> { [    U06AC, U0767                        ] }; // U0767 - Arwi 'gna'
         key <AC06> { [    Arabic_ha, Arabic_hah               ] };
         key <AC07> { [    Arabic_jeem, Arabic_tcheh           ] };
         key <AC08> { [    Arabic_kaf, Arabic_qaf              ] };
@@ -128,7 +128,7 @@ xkb_symbols "phonetic"
         key <AC10> { [      Arabic_semicolon, colon           ] };
         key <AC11> { [      apostrophe,        quotedbl       ] };
 
-        key <AD01> { [     Arabic_qaf, Arabic_veh             ] };
+        key <AD01> { [     Arabic_qaf, U06A3                  ] }; // U06A3 - Arwi 'pa'
         key <AD02> { [     Arabic_waw, Arabic_shadda          ] }; 
         key <AD03> { [     Arabic_ain, Arabic_ghain           ] };
         key <AD04> { [     Arabic_ra,  Arabic_ghain           ] };
@@ -136,8 +136,8 @@ xkb_symbols "phonetic"
         key <AD06> { [     Arabic_yeh, Arabic_alefmaksura     ] };
         key <AD07> { [     Arabic_waw, Arabic_tah             ] };
         key <AD08> { [     Arabic_yeh, U0640                  ] }; // U0640 - tatweel
-        key <AD09> { [     Arabic_ain, U200C                  ] }; // U200C - ZWNJ
-        key <AD10> { [     Arabic_veh, Arabic_teh             ] };
+        key <AD09> { [     U0657, U200C                       ] }; // U200C - ZWNJ, U0657 - Arwi 'O'
+        key <AD10> { [     U06A3, Arabic_teh                  ] }; // U06A3 - Arwi 'pa'
         key <AD11> { [     bracketright, braceright           ] };
         key <AD12> { [     bracketleft, braceleft             ] };
         key <AD13> { [     backslash,             bar         ] };
