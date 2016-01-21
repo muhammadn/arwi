@@ -110,7 +110,7 @@ xkb_symbols "phonetic"
         key <AB03> { [    Arabic_tcheh, UFEB9                 ] };
         key <AB04> { [    U06CF, Arabic_zah                   ] };
         key <AB05> { [    Arabic_beh, Arabic_peh              ] };
-        key <AB06> { [    Arabic_noon, U06B9                  ] }; // U06B7 - Arwi 'na'
+        key <AB06> { [    Arabic_noon, U06B9                  ] }; // U06B9 - Arwi 'na'
         key <AB07> { [    Arabic_meem, Arabic_madonalef       ] };
         key <AB08> { [    Arabic_comma, rightcaret            ] };
         key <AB09> { [    period, leftcaret                   ] };
